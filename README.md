@@ -44,3 +44,21 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+## Library
+
+1. material UI : design framework
+
+2. ethers : interacting with ethereum blockchain
+
+3. dotenv : env file for api key
+
+4. @react-google-maps/api : google map
+
+## 로컬에서 실행 방법
+
+1. dapp-find-treasure-contract 를 같은 상위 폴더 아래에 다운로드 후 hardhat node 실행 후 contract deploy 한다.
+2. contract artifacts 가 /src/contracts/ 밑에 생성된 것을 확인
+3. .env 파일에 REACT_APP_GOOGLE_MAP_API_KEY 변수에 api key 할당
+4. yarn start
